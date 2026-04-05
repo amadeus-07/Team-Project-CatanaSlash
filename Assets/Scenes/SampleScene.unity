@@ -538,6 +538,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b5387d7c4b0e4145949c08ae8137fcf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Game::PlayerInput
+--- !u!114 &987888854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 987888845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 731374e70d1d1b0a3860de197e5a3d2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Core::Core.StatsContext
+  _stats: []
 --- !u!1 &1004495804
 GameObject:
   m_ObjectHideFlags: 0
@@ -750,6 +763,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8027298966180749332, guid: 8f9b42333da3aa34da8cb9f9f62e4eb8, type: 3}
       insertIndex: -1
       addedObject: {fileID: 987888852}
+    - targetCorrespondingSourceObject: {fileID: 8027298966180749332, guid: 8f9b42333da3aa34da8cb9f9f62e4eb8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 987888854}
   m_SourcePrefab: {fileID: 100100000, guid: 8f9b42333da3aa34da8cb9f9f62e4eb8, type: 3}
 --- !u!1001 &7177649729521680665
 PrefabInstance:
