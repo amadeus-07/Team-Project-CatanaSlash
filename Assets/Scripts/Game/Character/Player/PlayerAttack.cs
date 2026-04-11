@@ -36,6 +36,7 @@ public class PlayerAttack : MonoBehaviour
 
     void DoDamage()
     {
+        
         var damage = stats.Get<AttackDamage>().Value;
 
         foreach (var col in Physics.OverlapSphere(transform.position, distance))

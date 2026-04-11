@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 1264391233317642132}
   - component: {fileID: 4401094460494907895}
   - component: {fileID: 3295059190578832417}
+  - component: {fileID: 6496963975182188647}
   m_Layer: 0
   m_Name: Orange
   m_TagString: Untagged
@@ -154,3 +155,17 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 9d58d639d2d3eb875a5c572f2edb3657, type: 2}
   - {fileID: 11400000, guid: 2a594ac4dcb6359cc8c1698668def436, type: 2}
   - {fileID: 11400000, guid: 6611fad4300784ab9ae20cfbee89730f, type: 2}
+--- !u!114 &6496963975182188647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8027298966180749332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ff8469e76d996648a2440f87547717f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Game::OrangeBehaviour
+  minDistanceFollow: 0
+  maxDistanceFollow: 0
