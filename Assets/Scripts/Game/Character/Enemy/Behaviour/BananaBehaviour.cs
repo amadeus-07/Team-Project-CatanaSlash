@@ -19,7 +19,15 @@ public class BananaBehaviour : Enemy
 
     private void Start()
     {
-      base.Start();
+        base.Start();
+        var idle = new IdleState();
+        var follow = new FollowState( Target.Transform, new TransformMovement(transform, new ReactiveProperty<float>(3.5f)));
+        var combat = new CombatState(Target.Stats.Get<Health>(), Stats.Get<AttackDamage>(), Stats.Get<AttackSpeed>().Duration);
+        _fsm.AddTransition(follow, idle, () => Distance <= minDistanceToAttack);
+        _fsm.AddTransition(idle, follow, () => Distance >= maxDistanceToAttack);
+        _fsm.AddTransition(idle, combat, CanAttack);
+        _fsm.AddTransition(combat, idle, () => !CanAttack());
+        _fsm.Start(idle);
     }
 
 

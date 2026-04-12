@@ -7,9 +7,13 @@ using Unity.VisualScripting;
 public class LevelLifetimeScope : LifetimeScope
 {
     [SerializeField] private PlayerInput input;
+    [SerializeField] private Player player;
 
     protected override void Configure(IContainerBuilder builder)
     {
         builder.RegisterInstance(input);
+        builder.RegisterInstance(player)
+            .AsSelf()
+            .As<ITarget>();
     }
 }

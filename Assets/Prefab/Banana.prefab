@@ -167,5 +167,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14f29eb365a645a4a9ba12b118e36be3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Game::BananaBehaviour
-  minDistanceToAttack: 0
-  maxDistanceToAttack: 0
+  minDistanceToAttack: 2
+  maxDistanceToAttack: 3

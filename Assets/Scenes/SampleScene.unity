@@ -550,6 +550,7 @@ MonoBehaviour:
   autoInjectGameObjects:
   - {fileID: 754986163}
   input: {fileID: 987888855}
+  player: {fileID: 1115928705}
 --- !u!4 &754986165
 Transform:
   m_ObjectHideFlags: 0
@@ -784,6 +785,17 @@ MonoBehaviour:
   m_MinRegionArea: 2
   m_NavMeshData: {fileID: 23800000, guid: 80967316a4237554ab74781cbfcc142a, type: 2}
   m_BuildHeightMesh: 0
+--- !u!114 &1115928705 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8966736054913775812, guid: 8f9b42333da3aa34da8cb9f9f62e4eb8, type: 3}
+  m_PrefabInstance: {fileID: 1644512845}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf2619e22b3415843aa625a62bccee0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Game::Player
 --- !u!1001 &1644512845
 PrefabInstance:
   m_ObjectHideFlags: 0

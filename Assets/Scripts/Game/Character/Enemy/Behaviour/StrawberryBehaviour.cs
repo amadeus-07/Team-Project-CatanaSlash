@@ -22,7 +22,14 @@ public class StrawberryBehaviour : Enemy, IBehaviour
     private void Start()
     {
         base.Start();
-       
+        var idle = new IdleState();
+        var follow = new FollowState( Target.Transform, new NavMeshMovement(_agent));
+        var combat = new CombatState( Target.Stats.Get<Health>(), Stats.Get<AttackDamage>(), Stats.Get<AttackSpeed>().Duration);
+        _fsm.AddTransition(follow, idle, () => Distance <= minDistanceFollow);
+        _fsm.AddTransition(idle, follow, () => Distance >= maxDistanceFollow);
+        _fsm.AddTransition(idle, combat, CanAttack);
+        _fsm.AddTransition(combat, idle, () => !CanAttack());
+        _fsm.Start(idle);
     }
 
 

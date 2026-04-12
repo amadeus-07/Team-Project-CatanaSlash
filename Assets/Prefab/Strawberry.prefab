@@ -167,5 +167,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47e5c36a93cdf6d459a12f3fd0f29c54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Game::StrawberryBehaviour
-  minDistanceFollow: 0
-  maxDistanceFollow: 0
+  minDistanceFollow: 2
+  maxDistanceFollow: 3

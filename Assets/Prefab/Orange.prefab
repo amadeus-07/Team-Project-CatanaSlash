@@ -167,5 +167,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ff8469e76d996648a2440f87547717f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Game::OrangeBehaviour
-  minDistanceFollow: 0
-  maxDistanceFollow: 0
+  minDistanceFollow: 9
+  maxDistanceFollow: 12
+  projectileSpawnPoint: {fileID: 0}
