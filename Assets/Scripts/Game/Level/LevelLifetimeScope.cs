@@ -8,6 +8,7 @@ public class LevelLifetimeScope : LifetimeScope
 {
     [SerializeField] private PlayerInput input;
     [SerializeField] private Player player;
+    [SerializeField] private Projectile projectilePrefab;
 
     protected override void Configure(IContainerBuilder builder)
     {
@@ -15,5 +16,7 @@ public class LevelLifetimeScope : LifetimeScope
         builder.RegisterInstance(player)
             .AsSelf()
             .As<ITarget>();
+         builder.RegisterInstance(projectilePrefab);
+        builder.Register<ProjectileFactory>(Lifetime.Singleton).As<IProjectileFactory>();
     }
 }
