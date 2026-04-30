@@ -5,9 +5,11 @@ using VContainer;
 
 public abstract class Enemy : Character
 {
+    [SerializeField] private Animator animator;
+    [SerializeField] private Transform explodeForcePoint;
     [Inject] protected ITarget Target {get;  private set;}
-  
 
+    protected AnimationStateFactory AnimationStateFactory {get; private set;}
 
     public void SetTarget(ITarget target)
     {
@@ -16,7 +18,7 @@ public abstract class Enemy : Character
 
     protected void Awake()
     {
-
+        AnimationStateFactory = new AnimationStateFactory(animator);
         base.Awake();
     }
 
@@ -27,6 +29,7 @@ public abstract class Enemy : Character
 
     protected override void OnDamage(int delta)
     {
+        
     }
 
     protected override void OnDead()

@@ -3,7 +3,7 @@ using UnityEngine.AI;
 using Core;
 using System.Linq;
 
-public class KeepDistanceState : State
+public class KeepDistanceState : CharacterState
 {
     private readonly Transform _owner;
     private readonly Transform? _target;
@@ -17,10 +17,11 @@ public class KeepDistanceState : State
     private NavMeshPath _path; // Переиспользуемый путь для проверки
 
     public KeepDistanceState(
+        AnimationState animation,
         Transform owner,
         Transform? target,
         IMovementTo movement,
-        float keepDistance)
+        float keepDistance) : base(animation)
     {
         _owner = owner;
         _target = target;

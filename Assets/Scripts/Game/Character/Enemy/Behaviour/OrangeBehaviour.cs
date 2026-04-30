@@ -34,6 +34,7 @@ public class OrangeBehaviour : Enemy
         var movement = new NavMeshMovement(agent);
 
         var keepDistance = new KeepDistanceState(
+            AnimationStateFactory.Create("Walk"),
             transform,
             Target?.Transform,
             movement,
@@ -41,14 +42,14 @@ public class OrangeBehaviour : Enemy
         );
 
         var shoot = new ShootState(
-            projectileFactory,
+            AnimationStateFactory.Create("Attack"),
             projectileSpawnPoint,
             Stats.Get<AttackSpeed>().Duration,
             Stats.Get<AttackDamage>(),
             new ReactiveProperty<float>(20)
         );
 
-        var idle = new IdleState();
+        var idle = new IdleState(AnimationStateFactory.Create("Idle"));
 
         movementFsm.Start(keepDistance);
 

@@ -2,7 +2,7 @@ using Core;
 using UniRx;
 using UnityEngine;
 
-public class CombatState : State
+public class CombatState : CharacterState
 {
     private readonly AttackDamage _damage;
     private readonly Cooldown _cooldown;
@@ -10,7 +10,7 @@ public class CombatState : State
     private Health? _health;
      
 
-    public CombatState(Health health, AttackDamage damage, ReactiveProperty<float> duration)
+    public CombatState(AnimationState animation, Health health, AttackDamage damage, ReactiveProperty<float> duration) : base (animation)
     {
         _health = health;
         _damage = damage;
