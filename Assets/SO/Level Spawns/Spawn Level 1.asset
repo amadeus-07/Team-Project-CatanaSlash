@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99303656924c6f8b6b71830bddb4ad6b, type: 3}
+  m_Name: Spawn Level 1
+  m_EditorClassIdentifier: Assembly-CSharp::Core.SpawnSequence
+  steps:
+  - spawnStepItems:
+    - enemy: {fileID: 6591405640886228893, guid: ea4cce48384e2c8c294afd5edb09a852, type: 3}
+      side: 12
+      amount: 1
+    delay: 7
+  - spawnStepItems:
+    - enemy: {fileID: 6591405640886228893, guid: ea4cce48384e2c8c294afd5edb09a852, type: 3}
+      side: -1
+      amount: 1
+    delay: 3
+  - spawnStepItems:
+    - enemy: {fileID: 6591405640886228893, guid: ea4cce48384e2c8c294afd5edb09a852, type: 3}
+      side: 3
+      amount: 3
+    delay: 4
+  - spawnStepItems:
+    - enemy: {fileID: 6591405640886228893, guid: ea4cce48384e2c8c294afd5edb09a852, type: 3}
+      side: -1
+      amount: 2
+    delay: 5
+  - spawnStepItems:
+    - enemy: {fileID: 6591405640886228893, guid: ea4cce48384e2c8c294afd5edb09a852, type: 3}
+      side: -1
+      amount: 4
+    delay: 8
+  - spawnStepItems:
+    - enemy: {fileID: 6591405640886228893, guid: ea4cce48384e2c8c294afd5edb09a852, type: 3}
+      side: 12
+      amount: 4
+    delay: 8
+  - spawnStepItems:
+    - enemy: {fileID: 6591405640886228893, guid: ea4cce48384e2c8c294afd5edb09a852, type: 3}
+      side: -1
+      amount: 3
+    delay: 6
+  - spawnStepItems:
+    - enemy: {fileID: 6591405640886228893, guid: ea4cce48384e2c8c294afd5edb09a852, type: 3}
+      side: -1
+      amount: 3
+    delay: 5
+  - spawnStepItems:
+    - enemy: {fileID: 6591405640886228893, guid: ea4cce48384e2c8c294afd5edb09a852, type: 3}
+      side: -1
+      amount: 2
+    delay: 5
+  - spawnStepItems:
+    - enemy: {fileID: 6591405640886228893, guid: ea4cce48384e2c8c294afd5edb09a852, type: 3}
+      side: 12
+      amount: 2
+    delay: 6
+  - spawnStepItems:
+    - enemy: {fileID: 6591405640886228893, guid: ea4cce48384e2c8c294afd5edb09a852, type: 3}
+      side: 3
+      amount: 2
+    delay: 4
+  - spawnStepItems:
+    - enemy: {fileID: 6591405640886228893, guid: ea4cce48384e2c8c294afd5edb09a852, type: 3}
+      side: -1
+      amount: 6
+    delay: 6
+  - spawnStepItems:
+    - enemy: {fileID: 6591405640886228893, guid: ea4cce48384e2c8c294afd5edb09a852, type: 3}
+      side: -1
+      amount: 2
+    delay: 12
+  - spawnStepItems:
+    - enemy: {fileID: 6591405640886228893, guid: ea4cce48384e2c8c294afd5edb09a852, type: 3}
+      side: 3
+      amount: 3
+    delay: 4
+  - spawnStepItems:
+    - enemy: {fileID: 6591405640886228893, guid: ea4cce48384e2c8c294afd5edb09a852, type: 3}
+      side: 12
+      amount: 2
+    delay: 4
+  - spawnStepItems:
+    - enemy: {fileID: 6591405640886228893, guid: ea4cce48384e2c8c294afd5edb09a852, type: 3}
+      side: -1
+      amount: 4
+    delay: 4
+  - spawnStepItems:
+    - enemy: {fileID: 6591405640886228893, guid: ea4cce48384e2c8c294afd5edb09a852, type: 3}
+      side: -1
+      amount: 2
+    delay: 8
+  - spawnStepItems:
+    - enemy: {fileID: 6591405640886228893, guid: ea4cce48384e2c8c294afd5edb09a852, type: 3}
+      side: -1
+      amount: 1
+    delay: 6
+  - spawnStepItems:
+    - enemy: {fileID: 6591405640886228893, guid: ea4cce48384e2c8c294afd5edb09a852, type: 3}
+      side: -1
+      amount: 1
+    delay: 1
+  - spawnStepItems:
+    - enemy: {fileID: 6591405640886228893, guid: ea4cce48384e2c8c294afd5edb09a852, type: 3}
+      side: -1
+      amount: 1
+    delay: 2
+  - spawnStepItems:
+    - enemy: {fileID: 6591405640886228893, guid: ea4cce48384e2c8c294afd5edb09a852, type: 3}
+      side: -1
+      amount: 1
+    delay: 2
+  - spawnStepItems:
+    - enemy: {fileID: 6591405640886228893, guid: ea4cce48384e2c8c294afd5edb09a852, type: 3}
+      side: -1
+      amount: 5
+    delay: 3

@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &6140260651594531959
+--- !u!1 &3482438926229256487
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -22,7 +22,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6140260651594531959}
+  m_GameObject: {fileID: 3482438926229256487}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1.5, z: 1.5}
@@ -31,7 +31,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1953997374476713329}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &8027298966180749332
+--- !u!1 &6329833293655380681
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -57,7 +57,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8027298966180749332}
+  m_GameObject: {fileID: 6329833293655380681}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -74,7 +74,7 @@ CapsuleCollider:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8027298966180749332}
+  m_GameObject: {fileID: 6329833293655380681}
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -97,7 +97,7 @@ NavMeshAgent:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8027298966180749332}
+  m_GameObject: {fileID: 6329833293655380681}
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 1
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8027298966180749332}
+  m_GameObject: {fileID: 6329833293655380681}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 731374e70d1d1b0a3860de197e5a3d2f, type: 3}
@@ -135,12 +135,14 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8027298966180749332}
+  m_GameObject: {fileID: 6329833293655380681}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3ff8469e76d996648a2440f87547717f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Game::OrangeBehaviour
+  animator: {fileID: 4672640060868037218}
+  explodeForcePoint: {fileID: 0}
   minDistanceFollow: 9
   maxDistanceFollow: 12
   projectileSpawnPoint: {fileID: 7291583156356914224}
@@ -199,8 +201,38 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e2ab9a39d136443aca8a93b7fb6cbc9b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4672640060868037218}
   m_SourcePrefab: {fileID: 100100000, guid: e2ab9a39d136443aca8a93b7fb6cbc9b, type: 3}
+--- !u!1 &2704299323120595191 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e2ab9a39d136443aca8a93b7fb6cbc9b, type: 3}
+  m_PrefabInstance: {fileID: 2974328735502929318}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &4672640060868037218
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2704299323120595191}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f41dc4f1f775b4b4c871435faa236100, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!4 &3372150779855956557 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e2ab9a39d136443aca8a93b7fb6cbc9b, type: 3}
