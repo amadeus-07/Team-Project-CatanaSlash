@@ -141,6 +141,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3ff8469e76d996648a2440f87547717f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Game::OrangeBehaviour
+  animator: {fileID: 4672640060868037218}
+  explodeForcePoint: {fileID: 0}
   minDistanceFollow: 9
   maxDistanceFollow: 12
   projectileSpawnPoint: {fileID: 7291583156356914224}
@@ -199,8 +201,38 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e2ab9a39d136443aca8a93b7fb6cbc9b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4672640060868037218}
   m_SourcePrefab: {fileID: 100100000, guid: e2ab9a39d136443aca8a93b7fb6cbc9b, type: 3}
+--- !u!1 &2704299323120595191 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e2ab9a39d136443aca8a93b7fb6cbc9b, type: 3}
+  m_PrefabInstance: {fileID: 2974328735502929318}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &4672640060868037218
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2704299323120595191}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f41dc4f1f775b4b4c871435faa236100, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!4 &3372150779855956557 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e2ab9a39d136443aca8a93b7fb6cbc9b, type: 3}
