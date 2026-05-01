@@ -87,6 +87,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 14f29eb365a645a4a9ba12b118e36be3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Game::BananaBehaviour
+  animator: {fileID: 517857633511567691}
+  explodeForcePoint: {fileID: 0}
   minDistanceToAttack: 2
   maxDistanceToAttack: 3
 --- !u!54 &5400295967896129902
@@ -187,10 +189,40 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 4d11227f1b963ac48aa8f5eb7a727ba3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 517857633511567691}
   m_SourcePrefab: {fileID: 100100000, guid: 4d11227f1b963ac48aa8f5eb7a727ba3, type: 3}
 --- !u!4 &2532939605074301238 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 4d11227f1b963ac48aa8f5eb7a727ba3, type: 3}
   m_PrefabInstance: {fileID: 2642617218520954589}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2913019211800939404 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 4d11227f1b963ac48aa8f5eb7a727ba3, type: 3}
+  m_PrefabInstance: {fileID: 2642617218520954589}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &517857633511567691
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2913019211800939404}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 77ac2ac5406ba33fd9e1a6c3090059e3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
