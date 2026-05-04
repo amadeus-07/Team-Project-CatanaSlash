@@ -13,6 +13,7 @@ public class PlayingState : State
     protected override void OnEnter()
     {
          _playerInput.enabled = true;
+         
     }
 
     private void Start()

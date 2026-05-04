@@ -12,6 +12,7 @@ public class LevelOutcome : MonoBehaviour
     private void Awake()
     {
         _fsm = new StateMachine(this);
+        
     }
 
     private void Start()
