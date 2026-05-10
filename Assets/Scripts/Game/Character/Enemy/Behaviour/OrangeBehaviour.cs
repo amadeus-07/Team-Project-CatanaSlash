@@ -10,7 +10,7 @@ public class OrangeBehaviour : Enemy
     [SerializeField] private float maxDistanceFollow;
     [SerializeField] private Transform projectileSpawnPoint;
 
-    [Inject] private IProjectileFactory projectileFactory;
+    // [Inject] private IProjectileFactory projectileFactory;
 
     private NavMeshAgent agent;
     private StateMachine attackFsm;
