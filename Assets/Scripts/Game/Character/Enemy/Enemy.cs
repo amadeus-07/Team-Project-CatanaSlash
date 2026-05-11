@@ -10,6 +10,7 @@ public abstract class Enemy : Character
     [Inject] protected ITarget Target {get;  private set;}
 
     protected AnimationStateFactory AnimationStateFactory {get; private set;}
+    protected FruitExplode fruitExplode;
 
     public void SetTarget(ITarget target)
     {
@@ -19,6 +20,7 @@ public abstract class Enemy : Character
     protected void Awake()
     {
         AnimationStateFactory = new AnimationStateFactory(animator);
+        fruitExplode = GetComponent<FruitExplode>();
         base.Awake();
     }
 
@@ -34,6 +36,7 @@ public abstract class Enemy : Character
 
     protected override void OnDead()
     {
+        fruitExplode.Explode();
         gameObject.SetActive(false);
     }
   
