@@ -11,7 +11,7 @@ public class LoseState : State
 
     protected override void OnEnter()
     {
-        
+        ReloadLevel();
     }
 
     private void ReloadLevel()

@@ -10,7 +10,7 @@ public class OrangeBehaviour : Enemy
     [SerializeField] private float maxDistanceFollow;
     [SerializeField] private Transform projectileSpawnPoint;
 
-    // [Inject] private IProjectileFactory projectileFactory;
+    [Inject] private IProjectileFactory projectileFactory;
 
     private NavMeshAgent agent;
     private StateMachine attackFsm;
@@ -43,6 +43,7 @@ public class OrangeBehaviour : Enemy
 
         var shoot = new ShootState(
             AnimationStateFactory.Create("Attack"),
+            projectileFactory,
             projectileSpawnPoint,
             Stats.Get<AttackSpeed>().Duration,
             Stats.Get<AttackDamage>(),
