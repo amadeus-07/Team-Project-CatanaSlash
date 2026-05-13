@@ -12,7 +12,7 @@ public class WinState : State
 
     protected override void OnEnter()
     {
-        
+        NextLevel();
     }
 
 

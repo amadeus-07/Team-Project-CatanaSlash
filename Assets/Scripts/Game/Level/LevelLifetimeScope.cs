@@ -17,6 +17,7 @@ public class LevelLifetimeScope : LifetimeScope
         builder.RegisterInstance(player)
             .AsSelf()
             .As<ITarget>();
+        builder.RegisterInstance(projectilePrefab);
         builder.Register<ProjectileFactory>(Lifetime.Singleton).As<IProjectileFactory>();
         builder.Register<EnemyCounter>(Lifetime.Singleton).As<IEnemyCounter>();
         builder.RegisterInstance(spawnSequence);

@@ -2493,7 +2493,7 @@ MonoBehaviour:
   - {fileID: 1610719347}
   input: {fileID: 1444501774}
   player: {fileID: 1444501772}
-  projectilePrefab: {fileID: 0}
+  projectilePrefab: {fileID: 5583549129969654580, guid: af941c551eaeb094bb0f3a5e8d79ba03, type: 3}
   spawnSequence: {fileID: 11400000, guid: b3619f119ad789b9384eef9a2775f4a2, type: 2}
 --- !u!1 &1655797963
 GameObject:
