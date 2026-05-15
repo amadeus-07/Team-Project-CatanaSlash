@@ -1,0 +1,15 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/NewUSSFile.uss?fileID=7433441132597879392&amp;guid=c8168b617fee51460bbf012c3e85e456&amp;type=3#NewUSSFile"/>
+    <ui:VisualElement name="Background" style="flex-grow: 1; position: absolute; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.53);"/>
+    <ui:VisualElement name="Resume" style="flex-grow: 1; width: 35%; max-width: none; max-height: none; align-self: center; justify-content: center; align-content: center; align-items: center;">
+        <ui:VisualElement name="Play" style="flex-grow: 0; margin-top: 5%; margin-right: 0; margin-bottom: 0%; margin-left: 4px; padding-top: 5%; padding-bottom: 5%; padding-left: 0; aspect-ratio: 3; width: 100%; justify-content: flex-end;">
+            <ui:Button text="" name="Play" class="resume-play-button" style="background-color: rgba(188, 188, 188, 0); margin-bottom: 0; margin-right: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; align-items: center; margin-top: 0; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0;"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="Options" style="flex-grow: 0; margin-top: 5%; margin-right: 0; margin-bottom: 0%; margin-left: 4px; padding-top: 5%; padding-bottom: 5%; padding-left: 0; aspect-ratio: 3; width: 100%; justify-content: flex-end;">
+            <ui:Button text="" name="Options" class="resume-option-button" style="background-color: rgba(188, 188, 188, 0); margin-bottom: 0; margin-right: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; align-items: center; margin-top: 0; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0;"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="Quit" style="flex-grow: 0; margin-top: 5%; margin-right: 0; margin-bottom: 0%; margin-left: 4px; padding-top: 5%; padding-bottom: 5%; padding-left: 0; aspect-ratio: 3; width: 100%; justify-content: flex-end;">
+            <ui:Button text="" name="Quit" class="resume-quit-button" style="background-color: rgba(188, 188, 188, 0); margin-bottom: 0; margin-right: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; align-items: center; margin-top: 0; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0;"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

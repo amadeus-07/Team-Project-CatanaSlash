@@ -1,0 +1,19 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="HUD" style="flex-grow: 0; flex-direction: row; top: 2%; bottom: auto; height: 10%; left: 1%; justify-content: flex-end; width: auto;">
+        <ui:VisualElement name="Hearts" style="flex-grow: 0; margin-left: 0; flex-direction: row-reverse; margin-right: 3%; align-content: center; justify-content: space-around; width: 40%;">
+            <ui:Image name="Heart" source="project://database/Assets/Textures/Buttons.png?fileID=-1810923745&amp;guid=6ae0013becab9d744a853b36f34add60&amp;type=3#Buttons_9" style="aspect-ratio: 1; margin-right: 0;"/>
+            <ui:Image name="Heart" source="project://database/Assets/Textures/Buttons.png?fileID=-1810923745&amp;guid=6ae0013becab9d744a853b36f34add60&amp;type=3#Buttons_9" style="aspect-ratio: 1;"/>
+            <ui:Image name="Heart" source="project://database/Assets/Textures/Buttons.png?fileID=-1810923745&amp;guid=6ae0013becab9d744a853b36f34add60&amp;type=3#Buttons_9" style="aspect-ratio: 1;"/>
+            <ui:Image name="Heart" source="project://database/Assets/Textures/Buttons.png?fileID=-1810923745&amp;guid=6ae0013becab9d744a853b36f34add60&amp;type=3#Buttons_9" style="aspect-ratio: 1;"/>
+            <ui:Image name="Heart" source="project://database/Assets/Textures/Buttons.png?fileID=-1810923745&amp;guid=6ae0013becab9d744a853b36f34add60&amp;type=3#Buttons_9" style="aspect-ratio: 1;"/>
+            <ui:Image name="Heart" source="project://database/Assets/Textures/Buttons.png?fileID=-1810923745&amp;guid=6ae0013becab9d744a853b36f34add60&amp;type=3#Buttons_9" style="aspect-ratio: 1;"/>
+            <ui:Image name="Heart" source="project://database/Assets/Textures/Buttons.png?fileID=-1810923745&amp;guid=6ae0013becab9d744a853b36f34add60&amp;type=3#Buttons_9" style="aspect-ratio: 1;"/>
+            <ui:Image name="Heart" source="project://database/Assets/Textures/Buttons.png?fileID=-1810923745&amp;guid=6ae0013becab9d744a853b36f34add60&amp;type=3#Buttons_9" style="aspect-ratio: 1;"/>
+            <ui:Image name="Heart" source="project://database/Assets/Textures/Buttons.png?fileID=-1810923745&amp;guid=6ae0013becab9d744a853b36f34add60&amp;type=3#Buttons_9" style="aspect-ratio: 1;"/>
+            <ui:Image name="Heart" source="project://database/Assets/Textures/Buttons.png?fileID=-1810923745&amp;guid=6ae0013becab9d744a853b36f34add60&amp;type=3#Buttons_9" style="aspect-ratio: 1;"/>
+        </ui:VisualElement>
+        <ui:Image uv="0,-0.3,1,1.6" source="project://database/Assets/UI/catAvatar.png?fileID=2800000&amp;guid=2761e163e719d12a88731e848ad179b0&amp;type=3#catAvatar" scale-mode="ScaleAndCrop" name="Avatar" style="background-size: 100% 50%; aspect-ratio: 1; background-image: url(&quot;project://database/Assets/UI/catAvatar.png?fileID=2800000&amp;guid=2761e163e719d12a88731e848ad179b0&amp;type=3#catAvatar&quot;); border-top-left-radius: 500px; border-top-right-radius: 500px; border-bottom-right-radius: 500px; border-bottom-left-radius: 500px; overflow: hidden; right: 2%; -unity-background-scale-mode: stretch-to-fill; flex-grow: 0; -unity-slice-type: sliced;">
+            <ui:VisualElement focusable="false" name="Player" style="overflow: hidden; background-color: rgba(0, 0, 0, 0); aspect-ratio: 1; background-image: url(&quot;project://database/Assets/Textures/Buttons.png?fileID=-781940053&amp;guid=6ae0013becab9d744a853b36f34add60&amp;type=3#Buttons_10&quot;); -unity-background-scale-mode: scale-and-crop;"/>
+        </ui:Image>
+    </ui:VisualElement>
+</ui:UXML>
