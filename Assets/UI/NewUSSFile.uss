@@ -1,0 +1,118 @@
+.menu-button:hover {
+    scale: 1.1 1.1 1.1;
+}
+
+.menu-button {
+}
+
+.resume-play-button {
+    background-color: rgb(255, 0, 0);
+    background-image: url("project://database/Assets/Textures/Buttons.png?fileID=-835121639&guid=6ae0013becab9d744a853b36f34add60&type=3#Buttons_2");
+    aspect-ratio: 3.368421;
+    margin-top: 5px;
+    margin-right: 4px;
+    margin-bottom: 5px;
+    margin-left: 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+}
+
+.resume-play-button:hover {
+    background-color: green;
+    background-image: url("project://database/Assets/Textures/Buttons.png?fileID=302496036&guid=6ae0013becab9d744a853b36f34add60&type=3#Buttons_11");
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    background-size: 100% 100%;
+    aspect-ratio: 3.368421;
+    margin-top: 5px;
+    padding-top: 12px;
+    margin-right: 4px;
+    margin-bottom: 5px;
+    margin-left: 4px;
+    padding-bottom: 10px;
+    padding-left: 0;
+}
+
+.resume-option-button {
+    background-color: rgb(255, 0, 0);
+    background-image: url("project://database/Assets/Textures/Buttons.png?fileID=-354710042&guid=6ae0013becab9d744a853b36f34add60&type=3#Buttons_6");
+    aspect-ratio: 3.368421;
+    margin-top: 5px;
+    margin-right: 4px;
+    margin-bottom: 5px;
+    margin-left: 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+}
+
+.resume-option-button:hover {
+    background-color: green;
+    background-image: url("project://database/Assets/Textures/Buttons.png?fileID=-1402817776&guid=6ae0013becab9d744a853b36f34add60&type=3#Buttons_14");
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    background-size: 100% 100%;
+    aspect-ratio: 3.368421;
+    margin-top: 5px;
+    padding-top: 10px;
+    margin-right: 4px;
+    margin-bottom: 5px;
+    margin-left: 4px;
+    padding-bottom: 10px;
+    padding-left: 0;
+}
+
+.resume-quit-button {
+    background-color: rgb(255, 0, 0);
+    background-image: url("project://database/Assets/Textures/Buttons.png?fileID=1909029674&guid=6ae0013becab9d744a853b36f34add60&type=3#Buttons_8");
+    aspect-ratio: 3.368421;
+    margin-top: 5px;
+    margin-right: 4px;
+    margin-bottom: 5px;
+    margin-left: 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+}
+
+.resume-quit-button:hover {
+    background-color: green;
+    background-image: url("project://database/Assets/Textures/Buttons.png?fileID=773994205&guid=6ae0013becab9d744a853b36f34add60&type=3#Buttons_16");
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    background-size: 100% 100%;
+    aspect-ratio: 3.368421;
+    margin-top: 5px;
+    padding-top: 10px;
+    margin-right: 4px;
+    margin-bottom: 5px;
+    margin-left: 4px;
+    padding-bottom: 10px;
+    padding-left: 0;
+}
+
+.option-sound {
+    background-image: url("project://database/Assets/Textures/Buttons.png?fileID=1543668636&guid=6ae0013becab9d744a853b36f34add60&type=3#Buttons_4");
+    aspect-ratio: 0.8421053;
+}
+
+.option-sound:hover {
+    background-image: url("project://database/Assets/Textures/Buttons.png?fileID=1246769703&guid=6ae0013becab9d744a853b36f34add60&type=3#Buttons_13");
+    aspect-ratio: 1;
+}
+
+.option-music {
+    background-image: url("project://database/Assets/Textures/Buttons.png?fileID=-94435617&guid=6ae0013becab9d744a853b36f34add60&type=3#Buttons_7");
+    aspect-ratio: 0.8421053;
+}
+
+.option-music:hover {
+    background-image: url("project://database/Assets/Textures/Buttons.png?fileID=1071245671&guid=6ae0013becab9d744a853b36f34add60&type=3#Buttons_15");
+    aspect-ratio: 1;
+}
+
+.option-on {
+    display: none;
+}
+
+.option-off {
+    display: flex;
+}
