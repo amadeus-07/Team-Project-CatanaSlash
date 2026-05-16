@@ -5,15 +5,18 @@ using VContainer;
 public class PlayingState : State
 {
     private PlayerInput _playerInput;
-    public PlayingState(PlayerInput playerInput)
+    private LabelPresenter _labelPresenter;
+
+    public PlayingState(LabelPresenter labelPresenter, PlayerInput playerInput)
     {
+        _labelPresenter = labelPresenter;
         _playerInput = playerInput;
     }
 
     protected override void OnEnter()
     {
-        _playerInput.enabled = true;
-         
+        _labelPresenter.PlayReady(Start);
+
     }
 
     private void Start()

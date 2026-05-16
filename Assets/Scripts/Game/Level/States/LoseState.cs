@@ -4,14 +4,18 @@ using UnityEngine.SceneManagement;
 
 public class LoseState : State
 {
+    private LabelPresenter _labelPresenter;
     
-    public LoseState()
+    public LoseState(LabelPresenter labelPresenter)
     {
+        _labelPresenter = labelPresenter;
+
     }
 
     protected override void OnEnter()
     {
-        ReloadLevel();
+        _labelPresenter.PlayLose(ReloadLevel);
+        
     }
 
     private void ReloadLevel()

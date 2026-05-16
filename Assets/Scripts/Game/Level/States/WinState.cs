@@ -4,15 +4,16 @@ using UnityEngine.SceneManagement;
 
 public class WinState : State
 {
+    private LabelPresenter _labelPresenter;
     
-    public WinState()
+    public WinState(LabelPresenter labelPresenter)
     {
-        
+        _labelPresenter = labelPresenter;
     }
 
     protected override void OnEnter()
     {
-        NextLevel();
+        _labelPresenter.PlayWin(NextLevel);
     }
 
 
