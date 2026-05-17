@@ -5,15 +5,18 @@ using UnityEngine.SceneManagement;
 public class LoseState : State
 {
     private LabelPresenter _labelPresenter;
+    private AudioPlayer _audioPlayer;
     
-    public LoseState(LabelPresenter labelPresenter)
+    public LoseState(LabelPresenter labelPresenter, AudioPlayer audioPlayer)
     {
         _labelPresenter = labelPresenter;
+        _audioPlayer = audioPlayer;
 
     }
 
     protected override void OnEnter()
     {
+        _audioPlayer.Music.Stop();
         _labelPresenter.PlayLose(ReloadLevel);
         
     }

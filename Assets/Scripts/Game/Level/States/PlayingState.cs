@@ -6,11 +6,12 @@ public class PlayingState : State
 {
     private PlayerInput _playerInput;
     private LabelPresenter _labelPresenter;
-
-    public PlayingState(LabelPresenter labelPresenter, PlayerInput playerInput)
+    private AudioPlayer _audioPlayer;
+    public PlayingState(LabelPresenter labelPresenter, PlayerInput playerInput, AudioPlayer audioPlayer)
     {
         _labelPresenter = labelPresenter;
         _playerInput = playerInput;
+        _audioPlayer = audioPlayer;
     }
 
     protected override void OnEnter()
@@ -22,5 +23,6 @@ public class PlayingState : State
     private void Start()
     {
         _playerInput.enabled = true;
+        _audioPlayer.Music.Play();
     }
 }

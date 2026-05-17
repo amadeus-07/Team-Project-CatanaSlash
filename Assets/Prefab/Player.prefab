@@ -272,6 +272,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 81a84ca2858a61f46b471bcd89f291d0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8064195002564344288}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 81a84ca2858a61f46b471bcd89f291d0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8317754522900845213}
     - targetCorrespondingSourceObject: {fileID: -8746460776217435766, guid: 81a84ca2858a61f46b471bcd89f291d0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1022966425278645694}
@@ -303,6 +306,23 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &8317754522900845213
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8172487982828399151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2633b10c83f7fb0a7b9fa94642b80a08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Game::AudioPlayer
+  <Swing>k__BackingField: {fileID: 0}
+  <Cut>k__BackingField: {fileID: 0}
+  <Damage>k__BackingField: {fileID: 0}
+  <Death>k__BackingField: {fileID: 0}
+  <Music>k__BackingField: {fileID: 0}
 --- !u!4 &8800405486413475989 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 81a84ca2858a61f46b471bcd89f291d0, type: 3}

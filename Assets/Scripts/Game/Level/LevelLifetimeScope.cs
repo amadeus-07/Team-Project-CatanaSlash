@@ -11,6 +11,7 @@ public class LevelLifetimeScope : LifetimeScope
     [SerializeField] private SpawnSequence spawnSequence;
     [SerializeField] private Projectile projectilePrefab;
     [SerializeField] private LabelPresenter labelPresenter;
+    [SerializeField] private AudioPlayer audioPlayer;
 
     protected override void Configure(IContainerBuilder builder)
     {
@@ -23,5 +24,6 @@ public class LevelLifetimeScope : LifetimeScope
         builder.Register<EnemyCounter>(Lifetime.Singleton).As<IEnemyCounter>();
         builder.RegisterInstance(input);
         builder.RegisterInstance(spawnSequence);
+        builder.RegisterInstance(audioPlayer);
     }
 }

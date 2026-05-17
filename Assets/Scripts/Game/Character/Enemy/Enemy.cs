@@ -3,14 +3,16 @@ using Unity.VisualScripting;
 using UnityEngine;
 using VContainer;
 
+[RequireComponent(typeof(FruitExplode))]
 public abstract class Enemy : Character
 {
     [SerializeField] private Animator animator;
     [SerializeField] private Transform explodeForcePoint;
     [Inject] protected ITarget Target {get;  private set;}
+    [Inject] private AudioPlayer audioPlayer;
 
     protected AnimationStateFactory AnimationStateFactory {get; private set;}
-    protected FruitExplode fruitExplode;
+    protected FruitExplode FruitExplode;
 
     public void SetTarget(ITarget target)
     {
@@ -20,7 +22,7 @@ public abstract class Enemy : Character
     protected void Awake()
     {
         AnimationStateFactory = new AnimationStateFactory(animator);
-        fruitExplode = GetComponent<FruitExplode>();
+        FruitExplode = GetComponent<FruitExplode>();
         base.Awake();
     }
 
@@ -36,7 +38,8 @@ public abstract class Enemy : Character
 
     protected override void OnDead()
     {
-        fruitExplode.Explode();
+        audioPlayer.Cut.Play();
+        FruitExplode.Explode();
         gameObject.SetActive(false);
     }
   
