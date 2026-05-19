@@ -2,7 +2,7 @@ using Core;
 using UniRx;
 using UnityEngine;
 
-public sealed class ShootState : State
+public sealed class ShootState : CharacterState
 {
     private readonly IProjectileFactory _factory;
     private readonly Cooldown _cooldown;
@@ -11,11 +11,12 @@ public sealed class ShootState : State
     private readonly Transform _firePoint;
 
     public ShootState(
+        AnimationState animation,
         IProjectileFactory factory,
         Transform firePoint,
         ReactiveProperty<float> attackSpeed,
         ReactiveProperty<int> damage,
-        ReactiveProperty<float> projectileSpeed)
+        ReactiveProperty<float> projectileSpeed) : base(animation)
     {
         _factory = factory;
         _firePoint = firePoint;

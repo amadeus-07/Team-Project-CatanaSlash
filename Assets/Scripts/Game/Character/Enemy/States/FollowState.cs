@@ -1,12 +1,12 @@
 using Core;
 using UnityEngine;
 
-public class FollowState : State
+public class FollowState : CharacterState
 {
     private readonly Transform? _target;
     private readonly IMovementTo _movement;
 
-    public FollowState( Transform? target, IMovementTo movement)
+    public FollowState(AnimationState animation, Transform? target, IMovementTo movement) : base(animation)
     {
         _target = target;
         _movement = movement;

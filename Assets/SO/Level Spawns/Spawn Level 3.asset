@@ -1,0 +1,290 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99303656924c6f8b6b71830bddb4ad6b, type: 3}
+  m_Name: Spawn Level 3
+  m_EditorClassIdentifier: Assembly-CSharp::Core.SpawnSequence
+  steps:
+  - spawnStepItems:
+    - enemy: {fileID: 6329833293655380681, guid: dcce629b77c3d366db706afa9a2cf74e, type: 3}
+      side: 2
+      amount: 5
+    - enemy: {fileID: 6591405640886228893, guid: ea4cce48384e2c8c294afd5edb09a852, type: 3}
+      side: 0
+      amount: 0
+    - enemy: {fileID: 1172363466906039244, guid: bb12c900b5d9f0eb7b3851ca0969225c, type: 3}
+      side: 3
+      amount: 1
+    delay: 7
+  - spawnStepItems:
+    - enemy: {fileID: 6329833293655380681, guid: dcce629b77c3d366db706afa9a2cf74e, type: 3}
+      side: 0
+      amount: 0
+    - enemy: {fileID: 6591405640886228893, guid: ea4cce48384e2c8c294afd5edb09a852, type: 3}
+      side: 0
+      amount: 0
+    - enemy: {fileID: 1172363466906039244, guid: bb12c900b5d9f0eb7b3851ca0969225c, type: 3}
+      side: 12
+      amount: 1
+    delay: 3
+  - spawnStepItems:
+    - enemy: {fileID: 6329833293655380681, guid: dcce629b77c3d366db706afa9a2cf74e, type: 3}
+      side: 0
+      amount: 0
+    - enemy: {fileID: 6591405640886228893, guid: ea4cce48384e2c8c294afd5edb09a852, type: 3}
+      side: -1
+      amount: 1
+    - enemy: {fileID: 1172363466906039244, guid: bb12c900b5d9f0eb7b3851ca0969225c, type: 3}
+      side: -1
+      amount: 1
+    delay: 4
+  - spawnStepItems:
+    - enemy: {fileID: 6329833293655380681, guid: dcce629b77c3d366db706afa9a2cf74e, type: 3}
+      side: -1
+      amount: 1
+    - enemy: {fileID: 6591405640886228893, guid: ea4cce48384e2c8c294afd5edb09a852, type: 3}
+      side: -1
+      amount: 1
+    - enemy: {fileID: 1172363466906039244, guid: bb12c900b5d9f0eb7b3851ca0969225c, type: 3}
+      side: -1
+      amount: 1
+    delay: 6
+  - spawnStepItems:
+    - enemy: {fileID: 6329833293655380681, guid: dcce629b77c3d366db706afa9a2cf74e, type: 3}
+      side: 3
+      amount: 1
+    - enemy: {fileID: 6591405640886228893, guid: ea4cce48384e2c8c294afd5edb09a852, type: 3}
+      side: 0
+      amount: 0
+    - enemy: {fileID: 1172363466906039244, guid: bb12c900b5d9f0eb7b3851ca0969225c, type: 3}
+      side: -1
+      amount: 2
+    delay: 8
+  - spawnStepItems:
+    - enemy: {fileID: 6329833293655380681, guid: dcce629b77c3d366db706afa9a2cf74e, type: 3}
+      side: 3
+      amount: 1
+    - enemy: {fileID: 6591405640886228893, guid: ea4cce48384e2c8c294afd5edb09a852, type: 3}
+      side: -1
+      amount: 1
+    - enemy: {fileID: 1172363466906039244, guid: bb12c900b5d9f0eb7b3851ca0969225c, type: 3}
+      side: 0
+      amount: 0
+    delay: 9
+  - spawnStepItems:
+    - enemy: {fileID: 6329833293655380681, guid: dcce629b77c3d366db706afa9a2cf74e, type: 3}
+      side: 0
+      amount: 0
+    - enemy: {fileID: 6591405640886228893, guid: ea4cce48384e2c8c294afd5edb09a852, type: 3}
+      side: 0
+      amount: 0
+    - enemy: {fileID: 1172363466906039244, guid: bb12c900b5d9f0eb7b3851ca0969225c, type: 3}
+      side: 3
+      amount: 1
+    delay: 4
+  - spawnStepItems:
+    - enemy: {fileID: 6329833293655380681, guid: dcce629b77c3d366db706afa9a2cf74e, type: 3}
+      side: 0
+      amount: 0
+    - enemy: {fileID: 6591405640886228893, guid: ea4cce48384e2c8c294afd5edb09a852, type: 3}
+      side: 0
+      amount: 0
+    - enemy: {fileID: 1172363466906039244, guid: bb12c900b5d9f0eb7b3851ca0969225c, type: 3}
+      side: 12
+      amount: 1
+    delay: 3
+  - spawnStepItems:
+    - enemy: {fileID: 6329833293655380681, guid: dcce629b77c3d366db706afa9a2cf74e, type: 3}
+      side: 0
+      amount: 0
+    - enemy: {fileID: 6591405640886228893, guid: ea4cce48384e2c8c294afd5edb09a852, type: 3}
+      side: 0
+      amount: 0
+    - enemy: {fileID: 1172363466906039244, guid: bb12c900b5d9f0eb7b3851ca0969225c, type: 3}
+      side: -1
+      amount: 1
+    delay: 3
+  - spawnStepItems:
+    - enemy: {fileID: 6329833293655380681, guid: dcce629b77c3d366db706afa9a2cf74e, type: 3}
+      side: 3
+      amount: 1
+    - enemy: {fileID: 6591405640886228893, guid: ea4cce48384e2c8c294afd5edb09a852, type: 3}
+      side: 3
+      amount: 1
+    - enemy: {fileID: 1172363466906039244, guid: bb12c900b5d9f0eb7b3851ca0969225c, type: 3}
+      side: 12
+      amount: 1
+    delay: 8
+  - spawnStepItems:
+    - enemy: {fileID: 6329833293655380681, guid: dcce629b77c3d366db706afa9a2cf74e, type: 3}
+      side: 0
+      amount: 0
+    - enemy: {fileID: 6591405640886228893, guid: ea4cce48384e2c8c294afd5edb09a852, type: 3}
+      side: -1
+      amount: 2
+    - enemy: {fileID: 1172363466906039244, guid: bb12c900b5d9f0eb7b3851ca0969225c, type: 3}
+      side: -1
+      amount: 1
+    delay: 6
+  - spawnStepItems:
+    - enemy: {fileID: 6329833293655380681, guid: dcce629b77c3d366db706afa9a2cf74e, type: 3}
+      side: 0
+      amount: 0
+    - enemy: {fileID: 6591405640886228893, guid: ea4cce48384e2c8c294afd5edb09a852, type: 3}
+      side: -1
+      amount: 1
+    - enemy: {fileID: 1172363466906039244, guid: bb12c900b5d9f0eb7b3851ca0969225c, type: 3}
+      side: 12
+      amount: 2
+    delay: 7
+  - spawnStepItems:
+    - enemy: {fileID: 6329833293655380681, guid: dcce629b77c3d366db706afa9a2cf74e, type: 3}
+      side: 0
+      amount: 0
+    - enemy: {fileID: 6591405640886228893, guid: ea4cce48384e2c8c294afd5edb09a852, type: 3}
+      side: -1
+      amount: 1
+    - enemy: {fileID: 1172363466906039244, guid: bb12c900b5d9f0eb7b3851ca0969225c, type: 3}
+      side: 0
+      amount: 0
+    delay: 7
+  - spawnStepItems:
+    - enemy: {fileID: 6329833293655380681, guid: dcce629b77c3d366db706afa9a2cf74e, type: 3}
+      side: 0
+      amount: 0
+    - enemy: {fileID: 6591405640886228893, guid: ea4cce48384e2c8c294afd5edb09a852, type: 3}
+      side: 0
+      amount: 0
+    - enemy: {fileID: 1172363466906039244, guid: bb12c900b5d9f0eb7b3851ca0969225c, type: 3}
+      side: -1
+      amount: 1
+    delay: 5
+  - spawnStepItems:
+    - enemy: {fileID: 6329833293655380681, guid: dcce629b77c3d366db706afa9a2cf74e, type: 3}
+      side: -1
+      amount: 1
+    - enemy: {fileID: 6591405640886228893, guid: ea4cce48384e2c8c294afd5edb09a852, type: 3}
+      side: 0
+      amount: 0
+    - enemy: {fileID: 1172363466906039244, guid: bb12c900b5d9f0eb7b3851ca0969225c, type: 3}
+      side: 0
+      amount: 0
+    delay: 4
+  - spawnStepItems:
+    - enemy: {fileID: 6329833293655380681, guid: dcce629b77c3d366db706afa9a2cf74e, type: 3}
+      side: -1
+      amount: 1
+    - enemy: {fileID: 6591405640886228893, guid: ea4cce48384e2c8c294afd5edb09a852, type: 3}
+      side: 0
+      amount: 0
+    - enemy: {fileID: 1172363466906039244, guid: bb12c900b5d9f0eb7b3851ca0969225c, type: 3}
+      side: 0
+      amount: 0
+    delay: 4
+  - spawnStepItems:
+    - enemy: {fileID: 6329833293655380681, guid: dcce629b77c3d366db706afa9a2cf74e, type: 3}
+      side: 0
+      amount: 0
+    - enemy: {fileID: 6591405640886228893, guid: ea4cce48384e2c8c294afd5edb09a852, type: 3}
+      side: 3
+      amount: 2
+    - enemy: {fileID: 1172363466906039244, guid: bb12c900b5d9f0eb7b3851ca0969225c, type: 3}
+      side: 0
+      amount: 0
+    delay: 6
+  - spawnStepItems:
+    - enemy: {fileID: 6329833293655380681, guid: dcce629b77c3d366db706afa9a2cf74e, type: 3}
+      side: 0
+      amount: 0
+    - enemy: {fileID: 6591405640886228893, guid: ea4cce48384e2c8c294afd5edb09a852, type: 3}
+      side: 12
+      amount: 2
+    - enemy: {fileID: 1172363466906039244, guid: bb12c900b5d9f0eb7b3851ca0969225c, type: 3}
+      side: 0
+      amount: 0
+    delay: 6
+  - spawnStepItems:
+    - enemy: {fileID: 6329833293655380681, guid: dcce629b77c3d366db706afa9a2cf74e, type: 3}
+      side: 0
+      amount: 0
+    - enemy: {fileID: 6591405640886228893, guid: ea4cce48384e2c8c294afd5edb09a852, type: 3}
+      side: 0
+      amount: 0
+    - enemy: {fileID: 1172363466906039244, guid: bb12c900b5d9f0eb7b3851ca0969225c, type: 3}
+      side: 3
+      amount: 1
+    delay: 3
+  - spawnStepItems:
+    - enemy: {fileID: 6329833293655380681, guid: dcce629b77c3d366db706afa9a2cf74e, type: 3}
+      side: 0
+      amount: 0
+    - enemy: {fileID: 6591405640886228893, guid: ea4cce48384e2c8c294afd5edb09a852, type: 3}
+      side: 0
+      amount: 0
+    - enemy: {fileID: 1172363466906039244, guid: bb12c900b5d9f0eb7b3851ca0969225c, type: 3}
+      side: 12
+      amount: 1
+    delay: 3
+  - spawnStepItems:
+    - enemy: {fileID: 6329833293655380681, guid: dcce629b77c3d366db706afa9a2cf74e, type: 3}
+      side: 3
+      amount: 1
+    - enemy: {fileID: 6591405640886228893, guid: ea4cce48384e2c8c294afd5edb09a852, type: 3}
+      side: 12
+      amount: 1
+    - enemy: {fileID: 1172363466906039244, guid: bb12c900b5d9f0eb7b3851ca0969225c, type: 3}
+      side: 0
+      amount: 0
+    delay: 6
+  - spawnStepItems:
+    - enemy: {fileID: 6329833293655380681, guid: dcce629b77c3d366db706afa9a2cf74e, type: 3}
+      side: 12
+      amount: 1
+    - enemy: {fileID: 6591405640886228893, guid: ea4cce48384e2c8c294afd5edb09a852, type: 3}
+      side: 0
+      amount: 0
+    - enemy: {fileID: 1172363466906039244, guid: bb12c900b5d9f0eb7b3851ca0969225c, type: 3}
+      side: 3
+      amount: 1
+    delay: 6
+  - spawnStepItems:
+    - enemy: {fileID: 6329833293655380681, guid: dcce629b77c3d366db706afa9a2cf74e, type: 3}
+      side: 0
+      amount: 0
+    - enemy: {fileID: 6591405640886228893, guid: ea4cce48384e2c8c294afd5edb09a852, type: 3}
+      side: 3
+      amount: 1
+    - enemy: {fileID: 1172363466906039244, guid: bb12c900b5d9f0eb7b3851ca0969225c, type: 3}
+      side: 0
+      amount: 0
+    delay: 3
+  - spawnStepItems:
+    - enemy: {fileID: 6329833293655380681, guid: dcce629b77c3d366db706afa9a2cf74e, type: 3}
+      side: -1
+      amount: 1
+    - enemy: {fileID: 6591405640886228893, guid: ea4cce48384e2c8c294afd5edb09a852, type: 3}
+      side: 0
+      amount: 0
+    - enemy: {fileID: 1172363466906039244, guid: bb12c900b5d9f0eb7b3851ca0969225c, type: 3}
+      side: 0
+      amount: 0
+    delay: 6
+  - spawnStepItems:
+    - enemy: {fileID: 6329833293655380681, guid: dcce629b77c3d366db706afa9a2cf74e, type: 3}
+      side: 0
+      amount: 0
+    - enemy: {fileID: 6591405640886228893, guid: ea4cce48384e2c8c294afd5edb09a852, type: 3}
+      side: -1
+      amount: 3
+    - enemy: {fileID: 1172363466906039244, guid: bb12c900b5d9f0eb7b3851ca0969225c, type: 3}
+      side: -1
+      amount: 2
+    delay: 6
